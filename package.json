@@ -19,7 +19,9 @@
   ],
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
-    "release-package": "npm run build && npx changeset publish"
+    "release-package": "npm run build && npx changeset publish",
+    "init-changeset": "npx changeset init",
+    "bump-version": "npx changeset"
   },
   "author": "codeef",
   "license": "MIT",
